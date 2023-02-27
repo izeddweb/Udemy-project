@@ -6,10 +6,20 @@ const modalContainer = document.querySelector('.modal-container')
 // set function
 
 buttonShow.onclick = function() {
-  modalContainer.style.opacity ='1';
-  buttonShow.style.opacity ='0';
+  modalContainer.style.display ='block';
+  buttonShow.style.display ='none';
   buttonClose.onclick = function() {
-    modalContainer.style.opacity ='0';
-    buttonShow.style.opacity ='1';
+    modalContainer.style.display ='none';
+    buttonShow.style.display ='block';
+    buttonShow.style.margin='auto';
   }
 }
+
+// buttonShow.onclick = function() {
+//   modalContainer.style.opacity ='1';
+//   buttonShow.style.opacity ='0';
+//   buttonClose.onclick = function() {
+//     modalContainer.style.opacity ='0';
+//     buttonShow.style.opacity ='1';
+//   }
+// }

@@ -10,6 +10,7 @@ body{
   height: 100vh;
   background-color: #5f5c5c;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: auto;
 }
 h2{
   margin: 40px;
@@ -17,6 +18,8 @@ h2{
   letter-spacing: 4px;
 }
 .btn{
+  /* margin: auto; */
+  display: block;
   cursor: pointer;
   width: 100px;
   height: 40px;
@@ -34,7 +37,7 @@ h2{
 /* star modal  */
 .modal-container{
   width: 50%;
-  height: 50%;
+  height: 70%;
   margin: auto;
   background-color: #fff;
   display: flex;
@@ -43,7 +46,7 @@ h2{
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -70,8 +73,12 @@ h2{
   -o-border-radius: 10px;
   
 }
-.modal h4,.modal p,.modal .btn-in {
+.modal h4,.modal .btn-in {
   font-size: 26px;
+  /* margin: auto; */
+}
+.modal p{
+  font-size: 20px;
   margin: auto;
 }
 
