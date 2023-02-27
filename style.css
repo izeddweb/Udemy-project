@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: #5f5c5c;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{
+  margin: 40px;
+  font-size: 40px;
+  letter-spacing: 4px;
+}
+.btn{
+  width: 100px;
+  height: 40px;
+  background-color: #02fa0a;
+  font-weight: 900;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px ;
+  -webkit-border-radius: 10px ;
+  -moz-border-radius: 10px ;
+  -ms-border-radius: 10px ;
+  -o-border-radius: 10px ;
+  margin-bottom: 20px;
+}
+/* star modal  */
+.modal-container{
+  width: 75%;
+  height: 75%;
+  margin: auto;
+  background-color: #fff;
+  display: flex;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+}
+.modal-container .modal{
+  border-radius: 10px;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #ebe2e2;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  
+}
+.modal h4,.modal p,.modal .btn-in {
+  font-size: 26px;
+  margin: auto;
+}
+
+/* end modal  */
